@@ -1,13 +1,26 @@
-/* ser.c
-	(C) 2004-5 Captain http://www.captain.at
-	
-	Sends 3 characters (ABC) via the serial port (/dev/ttyS0) and reads
-	them back if they are returned from the PIC.
-	
-	Used for testing the PIC-MMC test-board
-	http://www.captain.at/electronic-index.php
+/*
+ *  bp_i2c.c
+ *
+ *  Created by Thommy Jakobsson 2013
+ *  Copyright 2013 Thommy Jakobsson. All rights reserved.
+ *
+ */
 
+/*
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+
 #include <stdio.h>   /* Standard input/output definitions */
 #include <string.h>  /* String function definitions */
 #include <unistd.h>  /* UNIX standard function definitions */
